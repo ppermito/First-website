@@ -1,14 +1,85 @@
 body{
     background: #999;
-    font-family: arial;
+}
+
+.main-nav {
+    width: 100%;
+    background: bisque;  
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav .name {
+    display: ;
+}
+
+.nav li{
+    padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+    transition: all .5s;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+header {
+    text-align: center;
+    background: url(lavender2.jpg) no-repeat top center;
+    background-size: 100px;
+    overflow: hidden;
+    padding-top: 60px;
+    background-size: 100%;
+}
+
+header .profile-image {
+    margin: 20px 30px 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px green;
+    transition: all .5s;
+}
+
+.tag {
+    background: bisque;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+    font-family: serif;
+}
+
+.flare {
+    color: black;
+    margin-top: 2px;
 }
 
 h1 {
-    color:bisque;
+    color: black;
+    margin-bottom: none;
+}
+
+h2 {
+    margin: none;
 }
 
 a {
-    color:deepskyblue;
+    color: green;
 }
 
 p {
